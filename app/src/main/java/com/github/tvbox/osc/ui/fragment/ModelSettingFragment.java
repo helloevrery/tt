@@ -467,7 +467,7 @@ public class ModelSettingFragment extends BaseLazyFragment {
             @Override
             public void onClick(View v) {
                 FastClickCheckUtil.check(v);
-                int defaultPos = Hawk.get(HawkConfig.HOME_REC, 0);
+                int defaultPos = Hawk.get(HawkConfig.HOME_REC, 2);
                 ArrayList<Integer> types = new ArrayList<>();
                 types.add(0);
                 types.add(1);
