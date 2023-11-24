@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://gitee.com/ududu/tv/raw/master/test");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://gitee.com/ududu/tv/raw/master/quan1.txt");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
